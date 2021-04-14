@@ -1,0 +1,35 @@
+## compile and build files
+*.class
+*.jar
+lib/
+
+## editor backfiles
+*~
+
+## IDE project files
+.externalToolBuilders/
+.settings/
+.classpath
+.project
+*/.project
+.idea
+*.iml
+
+## thrift-generated file
+/*/doc/gen-java/
+/*/doc/gen-javabean/
+/*/thrift/gen-java/
+/*/thrift/gen-javabean/
+
+## build files and sub module build files
+/target/
+/*/target
+
+# eBook build output
+_book
+*.epub
+*.mobi
+*.pdf
+.metadata
+
+*DS_Store
